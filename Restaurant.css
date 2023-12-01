@@ -1,0 +1,23 @@
+body{
+  background-color: tan;
+}
+.Restaurants{
+    outline: auto;
+  }
+  .Restaurants a:link {
+    text-decoration: none;
+    color:black;
+  }
+  
+  .Restaurant a:visited {
+    text-decoration: none;
+    color:gray;
+  }
+  
+  .Restaurant a:hover {
+    text-decoration: underline;
+  }
+  
+  .Restaurant a:active {
+    text-decoration: underline;
+  }

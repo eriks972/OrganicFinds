@@ -1,0 +1,64 @@
+.topnav {
+    background-color: #109037;
+    overflow: hidden;
+    transform: translate(0px,-10px);
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float:left;
+    color: black;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: bolder;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #1d4644;
+    color: white;
+  }
+  header{
+    background-color: #109037;
+    text-align: center;
+    height: fit-content;
+    transform: translate(0px,-10px);
+  }
+  /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: tan;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: tan;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: tan;
+  display: none;
+  overflow: hidden;
+}
+.accordion a{
+  padding-right: 30px;
+}
+

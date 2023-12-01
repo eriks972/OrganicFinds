@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<header>
+        <link rel="stylesheet" href="Test Home Style.css">
+        <img src="organicFindslogo2.jpg" width="400" height="256" class="center style="background-color: #109037;">
+ </header>
+     <body>
+     <div class="topnav">
+             <a href="index.php">Home</a>
+             <a href="About Us.html">About Us</a>
+             <a href="Search.php">Search</a>
+             <a href="Products.html">Products</a>
+             <a href="Recipes.php">Recipes</a>
+             <a href="Gardening.html">Gardening</a>
+             <a href="Restaurants.php">Restaurants</a>
+             <a class="active" href="Vendors.php">Vendors</a>
+           </div>
+           <br>
+<form action="VendorsUpload.php" method="post">
+           <label for="Vname">Vendor Name:</label>
+           <input type="text" id="Vname" name="Vname"><br>
+           <br>
+           <label for="Address">Address:</label>
+           <input type="text" id="Address" name="Address"><br>
+           <br>
+           <label for="Zipcode">Zipcode:</label>
+           <input type="text" id="Zipcode" name="Zipcode"><br>
+           <br>
+           <label for="State">State:</label>
+           <input type="text" id="State" name="State"><br>
+           <br>
+           <label for="Deliever">Do They Deliver: </label><br>
+           <input type="radio" id="yes" name="Vendors" value="1">
+           <label for="yes">Yes</label><br>
+           <input type="radio" id="no" name="Vendors" value="0">
+           <label for="no">No</label><br>
+           <br>
+           <input type="submit" value="Submit">
+</form>
+</html>

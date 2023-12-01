@@ -1,0 +1,36 @@
+body{
+    background-color: tan;
+}
+p{
+    font-size: 35px;
+    color:black;
+    border-style: solid;
+    border-color: black;
+    padding: 0 18px;
+    width:700px;
+    border-width: 2px;
+}
+img.veg{  
+    padding:1px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    float: right;
+    transform: translate(-50px,110px);
+}
+img.fruit{  
+    padding:1px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    float: right;
+    transform: translate(-50px,115px);
+}
+img.spice{  
+    padding:1px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    float: right;
+    transform: translate(-50px,115px);
+}
